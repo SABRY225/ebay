@@ -32,17 +32,17 @@
 .place4{
     position: relative;
     top: -65px;
-    left: 120px;
+    left: 135px;
 }
 .place5{
     position: relative;
     top: 20px;
-    left: 0px;
+    left: 10px;
 }
 .place6{
     position: relative;
     top: 20px;
-    left: 0px;
+    left: 10px;
     padding: 0px 2px;
 }
 .place7{
@@ -52,5 +52,19 @@
     position: relative;
     top: 25px;
     right: 50px;
-    
+}
+
+.head{
+    padding: 10px 0px;
+}
+.head1{
+    padding: 190px 50px;
+}
+.head2{
+    background: red;
+}
+.imghead2{
+    width: 980px;
+    height: 375px;
+    margin: 0px 0px 0px -10px;
 }
