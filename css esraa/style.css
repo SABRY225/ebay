@@ -1,0 +1,7 @@
+.p , .op{
+    font-size: 12px;
+    font-weight: 300;
+}
+.op{
+    opacity: 0.6;
+}
