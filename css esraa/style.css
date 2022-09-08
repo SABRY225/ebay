@@ -1,7 +1,19 @@
-.p , .op{
-    font-size: 12px;
-    font-weight: 300;
+.fs {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    
 }
-.op{
-    opacity: 0.6;
+.sop{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.ico{
+    width: 15px;
+    height: 15px;
+}
+.ico2{
+    width: 25px;
+    height: 25px;
 }
