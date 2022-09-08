@@ -1,4 +1,4 @@
-.a{
+a{
     text-decoration: none;
 }
 .place1{
@@ -58,7 +58,9 @@
     padding: 10px 0px;
 }
 .head1{
-    padding: 190px 50px;
+    padding: 190px 10px;
+    background: #d10829f3;
+    
 }
 .head2{
     background: red;
@@ -67,4 +69,52 @@
     width: 980px;
     height: 375px;
     margin: 0px 0px 0px -10px;
+}
+.head1_1{
+    margin-top: -180px;
+    color: white;
+}
+.head1_2{
+    color: white;
+}
+.head1_2:hover {
+    background-color: white;
+    color: #ad1f3a;
+}
+.head1_3{
+    position: relative;
+    top: 130px;
+    margin-bottom: -130px;
+    color: white;
+}
+.head3{
+    padding: 10px 0px;
+    color: white;
+    background-color: #ad1f3a;
+}
+.head3_1{
+    padding-left:  5px;
+    padding-top: 10px;
+    margin-left: 30px;
+    color: black;
+    background-color: white;
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+
+}
+.head3_2{
+    padding: 0px 0px;
+    margin-left: 30px;
+}
+.head3_3{
+    padding: 0px 0px;
+    margin-left: 50px;
+}
+.head3_3_1{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 200px;
+    height: 50px;
+
 }
