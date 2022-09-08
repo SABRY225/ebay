@@ -1,0 +1,56 @@
+a{
+    text-decoration: none;
+}
+.place1{
+    position: relative;
+    top: 10px;
+}
+.place2{
+    position: relative;
+    left: 50px;
+}
+.img{
+    width: 30px;
+    height: 30px;
+}
+.v{
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+}
+.place{
+    margin-bottom: 10px;
+}
+.place3{
+    margin-bottom: -50px ;
+    padding: 0px ;
+}
+.eday{
+    width: 120px;
+    height: 80px;
+}
+.place4{
+    position: relative;
+    top: -65px;
+    left: 120px;
+}
+.place5{
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+.place6{
+    position: relative;
+    top: 20px;
+    left: 0px;
+    padding: 0px 2px;
+}
+.place7{
+    width: 150px;
+}
+.place8{
+    position: relative;
+    top: 25px;
+    right: 50px;
+    
+}
