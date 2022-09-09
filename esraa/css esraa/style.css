@@ -1,6 +1,7 @@
 body{
     width: 100%;
-    padding-left: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .fs {
     font-size: 16px;
@@ -64,7 +65,7 @@ body{
     font-size: 16px;
     color: black;
     text-decoration:underline white;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 
 
@@ -86,6 +87,7 @@ body{
     text-decoration:underline;
     background-color: white;
 }
+
 .fp{
     color: #333333;
     font-size: 12px;
@@ -98,6 +100,10 @@ body{
     font-size: 12px;
     font-weight: 400;
     padding: 0 5px 10px 0;
+}
+.fl2:hover{
+    color: #767676;
+    background-color: white;
 }
 .ico3{
     width: 25px;
