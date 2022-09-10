@@ -1,0 +1,314 @@
+
+
+.a{
+    text-decoration: none;
+}
+.place1{
+    position: relative;
+    top: 10px;
+}
+.place2{
+    position: relative;
+    left: 50px;
+}
+.img{
+    width: 30px;
+    height: 30px;
+}
+.v{
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+}
+.place{
+    margin-bottom: 10px;
+}
+.place3{
+    margin-bottom: -50px ;
+    padding: 0px ;
+}
+.eday{
+    width: 140px;
+    height: 80px;
+}
+.place4{
+    position: relative;
+    top: -65px;
+    left: 135px;
+}
+.place5{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.place6{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    padding: 0px 2px;
+}
+.place7{
+    width: 150px;
+}
+.place8{
+    position: relative;
+    top: 25px;
+    right: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.ebay-e{
+    color: red;
+    font-size: 55px;
+}
+.ebay-b{
+    color: rgb(0, 99, 209);
+    font-size: 55px;
+}
+.ebay-a{
+    color: rgb(244, 174, 1);
+    font-size: 55px;
+}
+.ebay-y{
+    color: green;
+    font-size: 55px;
+}
+.ruote{
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h1{
+    font-size: 30px;
+    color: rgb(172, 172, 172);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.advanced-search{
+    display: flex;
+}
+.items{
+    height: 330px;
+    margin-top: 10px;
+    border: 1px solid rgb(84, 84, 84);
+    width: 210px;
+}
+.item-text{
+    background: #eeeeee;
+    padding: 5px;
+}
+.find-items{
+    margin: 10px 20px;
+}
+.find-items p{
+    margin-bottom: 6px;
+    cursor: pointer;
+    padding: 4px;
+
+}
+.find-items p a{
+    text-decoration: none;
+}
+.activ{
+    background: #dfedff;
+}
+.find-items p:hover{
+    background: #dfedff;
+}
+
+.find-items-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-left: 15px;
+    border: 1px solid #999;
+    border-bottom: 2px solid #999 ;
+}
+
+.text-top{
+    background-color: #eeeeee;
+    padding: 5px 10px;
+    border-bottom: 1px solid #999;
+}
+.form{
+    margin: 10px;
+    border-bottom:1px solid #999 ;
+    height: 252px;
+}
+.keywords{
+    width: 350px;
+}
+.form-info{
+    margin-top: 10px;
+    display: flex;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* bottom: 23px; */
+    bottom: 29px;
+}
+.label label{
+    margin-bottom: 5px;
+}
+.general{
+    margin: 10px 0 ;
+}
+.category{
+    width: 200px;
+}
+.search{
+    margin: 15px 0;
+    width: 80px;
+    height: 30px;
+    background: rgb(0, 80, 157);
+    color: aliceblue;
+    border: none;
+    border-radius:5px ;
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 20px;
+}
+.search:hover{
+    transform: scale(.95);
+}
+.including{
+    margin: 20px;
+    border-bottom:1px solid #999 ;
+}
+.including h4{
+    margin: 10px 0;
+}
+.m-10{
+    margin-bottom: 10px ;
+}
+.price{
+    margin: 20px;
+    border-bottom:1px solid #999 ;
+}
+.price h4{
+    margin-bottom:10px;
+}
+.price-2{
+    margin-bottom: 10px;
+}
+#select{
+    width: 140px;
+}
+#select-1{
+    width: 70px;
+}
+.input-1{
+    width: 40px;
+}
+.end{
+    border-bottom: 3px solid #eeeeee;
+}
+footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+}
+footer a{
+    margin: 20px 10px;
+    color: #999;
+    text-decoration: none;
+}
+footer p{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+    width: 90%;
+    margin: auto;
+}
+.ebay-e{
+    color: red;
+    font-size: 55px;
+}
+.ebay-b{
+    color: rgb(0,99,209);
+    font-size: 55px;
+}
+.ebay-a{
+    color: rgb(244,174,1);
+    font-size: 55px;
+}
+.ebay-y{
+    color: green;
+    font-size: 55px;
+}
+.ebay-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+.ruote{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.advanced-search{
+    display: flex;
+}
+.items{
+    height: 253px;
+    margin-top: 10px;
+    border: 1px solid rgb(84,84,84);
+    width: 210px;
+
+
+}
+.item-text{
+background-color: #eeeeee;
+padding: 5px;
+}
+.find-itmes{
+    margin: 10px 20px;
+}
+.find-itmes p{
+    margin-bottom: 6px;
+    cursor: pointer;
+    padding: 4px;
+}
+.find-itmes p a {
+    text-decoration: none;
+}
+.activ{
+    background-color: #dfefff;
+}
+.find-itmes p:hover{
+    background-color: #dfefff;
+}
+.find-itmes-2{
+margin-top: 10px;
+background-color: #000;
+height: 100vh;
+width: 100%;
+margin-left: 15px;
+} */
