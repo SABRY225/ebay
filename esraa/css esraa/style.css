@@ -40,8 +40,8 @@ body{
 }
 
 .ico2{
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
 }
 .pa:hover , .li:hover , .li2:hover , .pa2:hover{
     color: black;
@@ -75,7 +75,10 @@ body{
     text-decoration:underline white;
     padding-left: 50px;
 }
-
+.img3{
+    width: 110px;
+    
+}
 
 .list3:hover{
     color: black;
@@ -116,9 +119,20 @@ body{
 .ico3{
     width: 25px;
 }
-.div2{
-    width: 205px;
-    height: 35px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+
+.font
+{
+    font-size: 14px;
+}
+.font2{
+    font-size:26px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.body2{
+    margin-top: 10px;
+}
+.img4{
+    width: 50px;
+    
 }
