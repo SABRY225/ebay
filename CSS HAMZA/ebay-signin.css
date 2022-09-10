@@ -1,0 +1,157 @@
+.head-support {
+    text-decoration: none;
+    color: rgb(6, 84, 186);
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 50%;
+    background-color: #ffff;
+}
+
+.ebay-logo {
+    width: 186px;
+    height: 69px;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.ebay-div {
+    position: absolute;
+    bottom: 87%;
+    right: 25%;
+}
+
+.support-div {
+    position: absolute;
+    left: 85%;
+}
+
+.welcome {
+    color: #151E27;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 50%;
+}
+
+.create {
+    color: rgb(54, 101, 243);
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.filler {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.email {
+    height: 48px;
+    width: 400px;
+    border-radius: 15px;
+    text-align: left;
+    align-items: flex-start;
+    border: #A7A7A7 solid 1px;
+    background-color: #F7F7F7;
+}
+.form {
+    position: relative;
+    right: 1%;
+}
+
+.submit {
+    color: #F6FCFF;
+    background-color: #3665F3;
+    height: 48px;
+    width: 400px;
+    border: none;
+    border-radius: 15px;
+}
+
+.submit:hover {
+    background-color: #1048f1;
+}
+
+.face {
+    background-color: #4267B2;
+    color: #FCFFFF;
+    height: 48px;
+    width: 400px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.f-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.g-logo {
+    width: 50px;
+    height: 50px;
+}
+.s-c {
+    margin-right: 10%;
+
+}
+.face:hover {
+    background-color: #062e7d;
+}
+.google {
+    height: 48px;
+    width: 400px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: #FFFFFF;
+    color: #534F4A;
+    border: 1px solid grey;
+}
+.google:hover {
+    background-color: lightgrey;
+}
+
+.apple-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.stay {
+    background-color: #191919;
+    color: #191919;
+}
+
+.stay-label {
+    font-size: 17.8px;
+    font-weight: 400;
+}
+
+.stay-div {
+    position: absolute;
+    left: 30%;
+}
+
+.learn {
+    color: #763ABE;
+}
+
+.learn-div {
+    position: absolute;
+    left: 30px;
+}
+
+.footer {
+    color: #A8BAC9;
+}

@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collectibles</title>
+    <link rel="stylesheet" href="/ebay/esraa/css esraa/style.css">
+    <link rel="stylesheet" href="/ebay/header/header.css">
+    <link rel="stylesheet" href="/ebay/header/bootstrip/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- start header -->
+    <header class="container-fluid border-bottom border-dark" >
+        <div class="row">
+            <div class="col-6 place1">
+                <h6>Hi! <a href="#">Sign in</a> or <a href="#" class="pe-5">register</a> <a href="#" class="pe-5 text-dark a">Daily Deals</a> <a href="#" class="text-dark a">Help & Contact</a> </h6>
+                
+            </div>
+            <div class="col-6 place2">
+                <a href="#" class="pe-3 text-dark a">Ship to</a>
+                <a href="#" class="pe-3 text-dark a">Sell</a>
+                            <!-- Button to Open the Modal -->
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal">
+                                watchlist
+                                </button>
+                                <!-- The Modal -->
+                                <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-body">
+                                        Please <a href="">sign in </a> to view items you are watching.
+                                    </div>
+                                    <!-- Modal body -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                <button class="btn btn-outline-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">My ebay</button>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Summary</a></li>
+                <li><a class="dropdown-item" href="#">Recently Viewed</a></li>
+                <li><a class="dropdown-item" href="#">Bids / offers</a></li>
+                <li><a class="dropdown-item" href="#" >watchlist</a></li>
+                <li><a class="dropdown-item" href="#" >purchase History</a></li>
+                <li><a class="dropdown-item" href="#" >Buy Again</a></li>
+                <li><a class="dropdown-item" href="#" >selling</a></li>
+                <li><a class="dropdown-item" href="#" >Saved searches</a></li>
+                <li><a class="dropdown-item" href="#" >Savad sellers</a></li>
+                <li><a class="dropdown-item" href="#" >Messages</a></li>
+                </ul>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal">
+                    <img src="/ebay/header/image/bell.png" alt="photo " class="img">
+                </button>
+                <!-- The Modal -->
+                <div class="modal" id="Modal">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-body">
+                        <!-- Please <a href="">sign in </a> to view notifications. -->
+                        </div>
+                        <!-- Modal body -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal">
+                        <img src="/ebay/header/image/shopping-cart.png" alt="photo " class="img">
+                        </button>
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-body">
+                                Please <a href="">sign in </a> to view items you are watching.
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+            </div>
+        </div>
+        </header>
+        <nav> 
+            <div class="container-fluid">
+                <div class="row border-bottom border-dark place">
+                    <div class="col-2  place3 row">
+                            <img src="http://pngimg.com/uploads/ebay/ebay_PNG22.png" alt="eday" class="eday col-2">
+                            <div class=" place4 col-2 ">
+                            <!-- Button to Open the Modal -->
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal">
+                                Shop by category
+                                </button>
+                                <!-- The Modal -->
+                                <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-body">
+                                        Please <a href="">sign in </a> to view items you are watching.
+                                    </div>
+                                    <!-- Modal body -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-6  place3">
+                        <div class="input-group place5">
+                            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                            <select aria-label="Select a category for search" class="gh-sb " size="1" id="gh-cat" name="_sacat">
+                                <option value="0">All Categories</option>
+                                <option value="20081">Antiques</option>
+                                <option value="550">Art</option>
+                                <option value="2984">Baby</option>
+                                <option value="267">Books</option>
+                                <option value="12576">Business &amp; Industrial</option>
+                                <option value="625">Cameras &amp; Photo</option>
+                                <option value="15032">Cell Phones &amp; Accessories</option>
+                                <option value="11450">Clothing, Shoes &amp; Accessories</option>
+                                <option value="11116">Coins &amp; Paper Money</option>
+                                <option value="1">Collectibles</option>
+                                <option value="58058">Computers/Tablets &amp; Networking</option>
+                                <option value="293">Consumer Electronics</option>
+                                <option value="14339">Crafts</option>
+                                <option value="237">Dolls &amp; Bears</option>
+                                <option value="11232">DVDs &amp; Movies</option>
+                                <option value="6000">eBay Motors</option>
+                                <option value="45100">Entertainment Memorabilia</option>
+                                <option value="172008">Gift Cards &amp; Coupons</option>
+                                <option value="26395">Health &amp; Beauty</option>
+                                <option value="11700">Home &amp; Garden</option>
+                                <option value="281">Jewelry &amp; Watches</option>
+                                <option value="11233">Music</option>
+                                <option value="619">Musical Instruments &amp; Gear</option>
+                                <option value="1281">Pet Supplies</option>
+                                <option value="870">Pottery &amp; Glass</option>
+                                <option value="10542">Real Estate</option>
+                                <option value="316">Specialty Services</option>
+                                <option value="888">Sporting Goods</option>
+                                <option value="64482">Sports Mem, Cards &amp; Fan Shop</option>
+                                <option value="260">Stamps</option>
+                                <option value="1305">Tickets &amp; Experiences</option>
+                                <option value="220">Toys &amp; Hobbies</option>
+                                <option value="3252">Travel</option>
+                                <option value="1249">Video Games &amp; Consoles</option>
+                                <option value="99">Everything Else</option></select>
+                        </div>
+                    </div>
+                    <div class="col-4  place3">
+                        <div class=" place6">
+                            <button type="button" class="btn btn-outline-primary btn-lm place7" >search</button>
+                        </div>
+                        <div class="place8">
+                            <a href="#" >Advanced</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End header -->
+    <div style=" margin-top: 10px; margin-bottom: 30px;">
+        <a href="../HTML/homepage.html"><span class="fs">eBay</span></a>
+        <img class="ico" src="../imges/download.png">
+        <span class="sop">Collectibles & Art</span>
+    </div>
+    <div style=" margin-bottom: 30px; ">
+        <img src="../imges/c1.jpg">
+    </div>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-2" style="padding: 0;">
+
+                <h6 style="font-weight: 600;">Categories</h6>
+                <ul class="list2">
+                    <li><a class="dropdown-item li2" href="#" style="padding-left: 0;">Stamps</a></li>
+                    <li><a class="dropdown-item li2" href="#" style="padding-left: 0;">Collectible Comics</a></li>
+                    <li><a class="dropdown-item li2" href="#" style="padding-left: 0;">Coins & Paper Money</a></li>
+                    <li><a class="dropdown-item li2" href="#" style="padding-left: 0;">Vintage Record Players</a></li>
+                    <li><a class="dropdown-item li2" href="#" style="padding-left: 0;">Antiques</a></li>
+                    <li><a class="dropdown-item li2" href="#" style="padding-left: 0;">Vintage Clothing Shoes & Accessories</a></li>
+                    <li><a class="dropdown-item li2" href="#" style="padding-left: 0;">Collectible Postcards</a></li>
+                    <li><a class="dropdown-item li2" href="#" style="padding-left: 0;">Action Figures</a></li>
+                    <li><a class="dropdown-item li2" href="#" style="padding-left: 0;">Entertainment Memorabilia</a></li>
+                </ul>
+                <div style=" margin-top: 10px; margin-bottom: 10px; border-bottom: 1px dashed rgb(202, 198, 198);">
+                </div>
+                <p style="font-weight: 700; font-size: 14px;">Shop by Category</p>
+                
+                            <div class="div2">
+                            <a class="pa2" href="#">
+                    Antiques
+                    <button class="btn btn-light" style="background-color:white ; border-color: white;"
+                        data-bs-toggle="collapse" data-bs-target="#demo"><img src="/ebay/esraa/imges/download (4).png"
+                            class="ico2" ></button></a>
+                    <div class="collapse" >
+                        <ul class="list">
+                            <li><a class="dropdown-item li" href="#">See all in Antiques</a></li>
+                            <li><a class="dropdown-item li" href="#">Antique Furniture</a></li>
+                            <li><a class="dropdown-item li" href="#">Antique Manuscripts</a></li>
+                            <li><a class="dropdown-item li" href="#">Antique Maps, Atlases & Globes</a></li>
+                            <li><a class="dropdown-item li" href="#">Antique Musical Instruments</a></li>
+                            <li><a class="dropdown-item li" href="#">Antique Primitives</a></li>
+                            <li><a class="dropdown-item li" href="#">Antique Rugs & Carpets</a></li>
+                            <li><a class="dropdown-item li" href="#">Antique Tapestries</a></li>
+                            <li><a class="dropdown-item li" href="#">Antiques Restoration</a></li>
+                            <li><a class="dropdown-item li" href="#">Architectural & Garden Antiques</li></a>
+                            <li><a class="dropdown-item li" href="#">Asian Antiques
+                                </a></li>
+                            <li><a class="dropdown-item li" href="#">Ethnographic Antiques
+                                </a></li>
+                            <li><a class="dropdown-item li" href="#">Incunabula
+                                </a></li>
+                            <li><a class="dropdown-item li" href="#"> Maritime Antiques
+                                </a></li>
+                            <li><a class="dropdown-item li" href="#">Mercantile, Trade & Factory Antiques
+                                </a></li>
+                            <li><a class="dropdown-item li" href="#">Other Antiques
+                                </a></li>
+                            <li><a class="dropdown-item li" href="#">Science & Medical Antiques
+                                </a></li>
+                            <li><a class="dropdown-item li" href="#">Sewing Antiques
+                                </a></li>
+                            <li><a class="dropdown-item li" href="#">Silver Antiques</a></li>
+                        </ul>
+                    </div>
+                            </div>
+                            <div class="div2">
+                    <a class="pa2" href="#">
+                        Art
+                        <button class="btn btn-light" style="background-color:white ; border-color: white;"
+                            data-bs-toggle="collapse" data-bs-target="#demo"><img
+                                src="/ebay/esraa/imges/download (4).png" class="ico2" ></button>
+                    </a>
+                        <div class="collapse" >
+                            <ul class="list">
+                                <li><a class="dropdown-item li" href="#">See all in Art
+                                    </a></li>
+                                <li><a class="dropdown-item li" href="#">Art Drawings
+                                    </a></li>
+                                <li><a class="dropdown-item li" href="#">Art NFTs
+                                    </a></li>
+                                <li><a class="dropdown-item li" href="#">Art Paintings
+                                    </a></li>
+                                <li><a class="dropdown-item li" href="#">Art Photographs
+                                    </a></li>
+                                <li><a class="dropdown-item li" href="#">Art Posters
+                                    </a></li>
+                                <li><a class="dropdown-item li" href="#">Art Prints
+                                    </a></li>
+                                <li><a class="dropdown-item li" href="#">Art Sculptures
+                                    </a></li>
+                                <li><a class="dropdown-item li" href="#">Mixed Media Art & Collage Art
+                                    </a></li>
+                                <li><a class="dropdown-item li" href="#">Other Art
+                                    </a></li>
+                                <li><a class="dropdown-item li" href="#">Textile Art & Fiber Art</a></li>
+                            </ul>
+                        </div>
+                            </div>
+                            <div class="div2">
+                        <a class="pa2" href="#">
+                            Art & Craft Supplies
+                            <button class="btn btn-light" style="background-color:white ; border-color: white;"
+                                data-bs-toggle="collapse" data-bs-target="#demo"><img
+                                    src="/ebay/esraa/imges/download (4).png" class="ico2" ></button>
+                        </a>
+
+                            <div class="collapse" >
+                                <ul class="list">
+                                    <li><a class="dropdown-item li" href="#">See all in Art & Craft Supplies
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Art Supplies
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Beads & Jewelry Making Supplies
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Craft Glass & Mosaics
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Craft Stamping & Embossing Supplies
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Crafts Wholesale Lots
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Fabric
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Fabric Painting & Decorating Supplies
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Handcrafted & Finished Pieces
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Home Arts & Crafts
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Kids' Crafts
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Leathercraft Tools & Supplies
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Multi-Purpose Craft Supplies
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Other Craft Supplies
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Scrapbooking & Paper Craft Supplies
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Sculpting, Molding & Ceramics Craft
+                                            Supplies
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Sewing Tools & Supplies
+                                        </a></li>
+                                    <li><a class="dropdown-item li" href="#">Yarn, Sewing & Needlecraft Supplies</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="div2">
+                            <a class="pa2" href="#">
+                                Coins & Paper Money
+                                <button class="btn btn-light" style="background-color:white ; border-color: white;"
+                                    data-bs-toggle="collapse" data-bs-target="#demo"><img
+                                        src="/ebay/esraa/imges/download (4).png" class="ico2" ></button>
+                            </a>
+                                <div class="collapse" >
+                                    <ul class="list">
+                                        <li><a class="dropdown-item li" href="#">See all in Coins & Paper Money
+                                            </a></li>
+                                        <li><a class="dropdown-item li" href="#">Ancient Coins
+                                            </a></li>
+                                        <li><a class="dropdown-item li" href="#">Bullion
+                                            </a></li>
+                                        <li><a class="dropdown-item li" href="#">Canadian Coins
+                                            </a></li>
+                                        <li><a class="dropdown-item li" href="#">Coin & Paper Money Publications &
+                                                Supplies
+                                            </a></li>
+                                        <li><a class="dropdown-item li" href="#">Exonumia
+                                            </a></li>
+                                        <li><a class="dropdown-item li" href="#">Medieval Coins
+                                            </a></li>
+                                        <li><a class="dropdown-item li" href="#">Other Coins & Paper Money
+                                            </a></li>
+                                        <li><a class="dropdown-item li" href="#">Stocks & Bonds
+                                            </a></li>
+                                        <li><a class="dropdown-item li" href="#">US Coins
+                                            </a></li>
+                                        <li><a class="dropdown-item li" href="#">US Paper Money
+                                            </a></li>
+                                        <li><a class="dropdown-item li" href="#">Virtual Currency
+                                            </a></li>
+                                        <li><a class="dropdown-item li" href="#">World Banknotes
+                                            </a></li>
+                                        <li><a class="dropdown-item li" href="#">World Coins</a></li>
+                                    </ul>
+                                </div></div>
+                                <div class="div2">
+                                <a class="pa2" href="#">
+                                    Collectibles
+                                    <button class="btn btn-light" style="background-color:white ; border-color: white;"
+                                        data-bs-toggle="collapse" data-bs-target="#demo"><img
+                                            src="/ebay/esraa/imges/download (4).png" class="ico2" ></button>
+                                </a>
+                                
+                                    <div class="collapse" >
+                                        <ul class="list">
+                                            <li><a class="dropdown-item li" href="#">See all in Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Animal Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Antique Linens & Textiles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Arcade, Jukebox & Pinball
+                                                    Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Autographs
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Bank, Register & Vending
+                                                    Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Bobbles, Pinbacks & Lunchboxes
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Breweriana & Beer Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Casino Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Advertising
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Animation Art &
+                                                    Merchandise
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Baby & Nursery
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Beads
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Bottles & Insulators
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Credit & Charge Cards
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Jewelry
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Knives, Swords, Blades,
+                                                    Armors & Accessories
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Lighting & Lamps
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Metalware
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Non-Sport Stickers,
+                                                    Collections & Albums
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible PEZ Dispensers,
+                                                    Keychains & Promo Glasses
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Pens & Writing
+                                                    Instruments
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Phone Cards
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Photographic Images
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Postcards & Supplies
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectible Tools, Hardware & Locks
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Collectibles Wholesale Lots
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Comic Books, Manga & Memorabilia
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Decorative Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Disneyana
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Emerging NFTs
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Ethnic & Cultural Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Fantasy, Mythical & Magic
+                                                    Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Historical Memorabilia
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Holiday & Seasonal Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Kitchen & Home Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Militaria
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Non-Sport Trading Cards
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Paper Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Radio, Phonograph, TV & Phone
+                                                    Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Religion & Spirituality
+                                                    Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Rocks, Fossils & Minerals
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Sci-Fi & Horror Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Science & Medical Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Sewing Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Tobacciana
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Transportation Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Travel Souvenirs & Memorabilia
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Vanity, Perfume & Shaving
+                                                    Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Vintage, Retro & Mid-Century
+                                                    Collectibles
+                                                </a></li>
+                                            <li><a class="dropdown-item li" href="#">Virtual & Crypto Collectibles</a>
+                                            </li>
+                                        </ul>
+                                    </div></div>
+                                    <div class="div2">
+                                    <a class="pa2" href="#">
+                                        Dolls & Teddy Bears
+                                        <button class="btn btn-light"
+                                            style="background-color:white ; border-color: white;"
+                                            data-bs-toggle="collapse" data-bs-target="#demo">
+                                            <img src="/ebay/esraa/imges/download (4).png" class="ico2" ></button>
+                                    </a>
+                                    
+                                        <div class="collapse" >
+                                            <ul class="list">
+                                                <li><a class="dropdown-item li" href="#">See all in Dolls & Teddy Bears
+                                                    </a></li>
+                                                <li><a class="dropdown-item li" href="#">Dollhouses & Dollhouse
+                                                        Miniatures
+                                                    </a></li>
+                                                <li><a class="dropdown-item li" href="#">Dolls, Clothing & Accessories
+                                                    </a></li>
+                                                <li><a class="dropdown-item li" href="#">Paper Dolls, Paper Doll Clothes
+                                                        & Accessories
+                                                    </a></li>
+                                                <li><a class="dropdown-item li" href="#">Teddy Bears, Clothing &
+                                                        Accessories</a></li>
+                                            </ul>
+                                        </div></div>
+                                        <div class="div2">
+                                        <a class="pa2" href="#">
+                                            Entertainment Memorabilia 
+                                            <button class="btn btn-light" 
+                                            style="background-color:white ; border-color: white;" 
+                                            data-bs-toggle="collapse" data-bs-target="#demo">
+                                            <img src="/ebay/esraa/imges/download (4).png" class="ico2"></button></a> 
+                                            <div class="collapse">
+                                                <ul class="list">
+                                                    <li><a class="dropdown-item li" href="#">See all in Entertainment Memorabilia</a></li>
+                                                    <li><a class="dropdown-item li" href="#">Movie Collectibles</a></li>
+                                                    <li><a class="dropdown-item li" href="#">Music Memorabilia</a></li>
+                                                    <li><a class="dropdown-item li" href="#">Original Autographed Entertainment Memorabilia</a></li>
+                                                    <li><a class="dropdown-item li" href="#">Other Entertainment Memorabilia</a></li>
+                                                    <li><a class="dropdown-item li" href="#">Reprinted Autographed Entertainment Memorabilia</a></li>
+                                                    <li><a class="dropdown-item li" href="#">TV Memorabilia</a></li>
+                                                    <li><a class="dropdown-item li" href="#">Theater Memorabilia</a></li>
+                                                    <li><a class="dropdown-item li" href="#">Video Game Collectibles</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="div2">
+                                            <a class="pa2" href="#">
+                                                Pottery & Glass
+                                                <button class="btn btn-light"
+                                                    style="background-color:white ; border-color: white;"
+                                                    data-bs-toggle="collapse" data-bs-target="#demo"><img
+                                                        src="/ebay/esraa/imges/download (4).png" class="ico2"
+                                                        ></button>
+                                            </a>
+                                            
+                                                <div class="collapse" >
+                                                    <ul class="list">
+                                                        <li><a class="dropdown-item li" href="#">See all in Pottery & Glass</a></li>
+                                                        <li><a class="dropdown-item li" href="#">Decorative Cookware, Dinnerware & Serveware</a></li>
+                                                        <li><a class="dropdown-item li" href="#">Decorative Pottery & Glassware</a></li>
+                                                        <li><a class="dropdown-item li" href="#">Other Pottery & Glass</a></li>
+                                                        <li><a class="dropdown-item li" href="#">Pottery & Glass Drinkware & Barware</a></li>
+                                                        <li><a class="dropdown-item li" href="#">Pottery & Glass Lamps, Lighting</a></li>
+                                                        <li><a class="dropdown-item li" href="#">Pottery & Glass Price Guides & Publications</a></li>
+                                                    </ul>
+                                                </div>
+                                        </div>
+                                        <div class="div2">
+                                                <a class="pa2" href="#">
+                                                    Sports Memorabilia, Fan Shop & Sports Cards
+                                                    <button class="btn btn-light"
+                                                        style="background-color:white ; border-color: white;"
+                                                        data-bs-toggle="collapse" data-bs-target="#demo"><img
+                                                            src="/ebay/esraa/imges/download (4).png" class="ico2"
+                                                            ></button>
+                                                </a>
+                                                
+                                                    <div class="collapse" >
+                                                        <ul class="list">
+                                                            <li><a class="dropdown-item li" href="#">See all in Sports
+                                                                    Memorabilia, Fan Shop & Sports Cards
+                                                                </a></li>
+                                                            <li><a class="dropdown-item li" href="#">Autographed Sports
+                                                                    Memorabilia
+                                                                </a></li>
+                                                            <li><a class="dropdown-item li" href="#">Collectible Sports
+                                                                    Stickers, Collections & Albums
+                                                                </a></li>
+                                                            <li><a class="dropdown-item li" href="#">Game Used Sports
+                                                                    Memorabilia
+                                                                </a></li>
+                                                            <li><a class="dropdown-item li" href="#">Sports Autograph
+                                                                    Reprints
+                                                                </a></li>
+                                                            <li><a class="dropdown-item li" href="#">Sports Fan Apparel
+                                                                    & Souvenirs
+                                                                </a></li>
+                                                            <li><a class="dropdown-item li" href="#">Sports Trading
+                                                                    Cards & Accessories
+                                                                </a></li>
+                                                            <li><a class="dropdown-item li" href="#">Vintage Sports
+                                                                    Memorabilia
+                                                                </a></li>
+                                                            <li><a class="dropdown-item li" href="#">Wholesale Sports
+                                                                    Cards & Memorabilia</a></li>
+                                                        </ul>
+                                                    </div>
+                                        </div>
+                                        <div class="div2">
+                                                    <a class="pa2" href="#">
+                                                        Stamps
+                                                        <button class="btn btn-light"
+                                                            style="background-color:white ; border-color: white;"
+                                                            data-bs-toggle="collapse" data-bs-target="#demo"><img
+                                                                src="/ebay/esraa/imges/download (4).png" class="ico2"
+                                                                ></button>
+                                                    </a>
+                                                    
+                                                        <div class="collapse" >
+                                                            <ul class="list">
+                                                                <li><a class="dropdown-item li" href="#">See all in
+                                                                        Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">African Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">Asian Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">Australian &
+                                                                        Oceanian Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">British Colony
+                                                                        & Territory Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">British Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">Canadian Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">Caribbean
+                                                                        Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">European Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">Latin American
+                                                                        Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">Middle Eastern
+                                                                        Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">Other Postal
+                                                                        Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">Postal Stamp
+                                                                        Publications & Supplies
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">Specialty
+                                                                        Philately
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">Topical Postal
+                                                                        Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">US Stamps
+                                                                    </a></li>
+                                                                <li><a class="dropdown-item li" href="#">World
+                                                                        Stamps</a></li>
+                                                            </ul>
+                                                        </div>
+                                        </div>
+                                        <div class="div2">
+                                                        <a class="pa2" href="#">
+                                                            Vintage & Antique Jewelry
+                                                            <button class="btn btn-light"
+                                                                style="background-color:white ; border-color: white;"
+                                                                data-bs-toggle="collapse" data-bs-target="#demo"><img
+                                                                    src="/ebay/esraa/imges/download (4).png"
+                                                                    class="ico2" ></button>
+                                                        </a>
+                                                        
+                                                            <div class="collapse" >
+                                                                <ul class="list">
+                                                                    <li><a class="dropdown-item li" href="#">See all in
+                                                                            Vintage & Antique Jewelry
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Other
+                                                                            Vintage & Antique Jewelry
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Anklets
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Bolo Ties
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Bracelets & Charms
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Brooches & Pins
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Cameos
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Collections & Lots
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Cufflinks
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Dress & Scarf Clips
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Earrings
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Findings & Stampings
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Hair & Head Jewelry
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Jewelry Sets
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Mourning Jewelry
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Necklaces & Pendants
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Price Guides & Publications
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Rings
+                                                                        </a></li>
+                                                                    <li><a class="dropdown-item li" href="#">Vintage &
+                                                                            Antique Tie Clasps & Tacks</a></li>
+                                                                </ul>
+                                                            </div>
+                                        </div>
+                                                    <div
+                                                        style="padding-bottom: 30px; padding-left: 0px; border-bottom: 1px dashed rgb(202, 198, 198);">
+                                                    </div>
+                                                </div>
+            <div class="col-10">
+                <h4
+                    style="opacity: 0.85; font-weight: 700; color: black; margin-bottom: 20px; margin-top: 5px; margin-left:18px ;">
+                    Shop by Category</h4>
+                <div class="container-fluid">
+                    <div class="row">
+                        <a href="#" class="col-6"><img
+                                src="/ebay/esraa/imges/c2.webp"
+                                style="margin-bottom:33px ;"></a>
+                        <a href="#" class="col-6"><img
+                                src="/ebay/esraa/imges/c3.webp"
+                                style="margin-bottom:33px ;"></a>
+                        <a href="#" class="col-4"><img
+                                src="/ebay/esraa/imges/c4.webp"
+                                style="margin-bottom:33px ;"></a>
+                        <a href="#" class="col-4"><img
+                                src="/ebay/esraa/imges/c5.webp"
+                                style="margin-bottom:33px ;"></a>
+                        <a href="#" class="col-4"><img
+                                src="/ebay/esraa/imges/c6.webp"
+                                style="margin-bottom:33px ;"></a>
+                        <a href="#" class="col-12"><img
+                                src="/ebay/esraa/imges/c7.webp"
+                                style="margin-bottom:33px ;"></a>
+                        <a href="#" class="col-4"><img
+                                src="/ebay/esraa/imges/c8.webp"
+                                style="margin-bottom:33px ;"></a>
+                        <a href="#" class="col-4"><img
+                                src="/ebay/esraa/imges/c9.webp"
+                                style="margin-bottom:33px ;"></a>
+                        <a href="#" class="col-4"><img
+                                src="/ebay/esraa/imges/c10.webp"
+                                style="margin-bottom:33px ;"></a>
+                    </div>
+                </div>
+                <h6
+                    style="font-weight: 700; opacity: 0.80; color: black; margin-left: 20px;margin-bottom: 0; margin-top: 20px; font-size: 20px;">
+                    Collectibles & Art</h6>
+                <p
+                    style="font-size: 14px; font-weight: 700; opacity: 0.80; color: black; margin-left: 20px;margin-bottom: 0; margin-top: 20px;">
+                    Perfect the Art of Collecting</p>
+                <p
+                    style="font-size: 14px; opacity: 0.90; color: black;margin-left: 25px; margin-top: 0;">
+                    Whether you collect <a href="#"
+                        style="color: #1553a5;">antiques,</a> rare coins,
+                    art, <a href="#" style="color: #1553a5;">sports
+                        memorabilia</a> or toys, eBay offers an extensive
+                    and ever-evolving selection. Snag that rare pinball
+                    machine or Montblanc fountain pen without leaving the
+                    comfort of your couch.</p>
+                <p
+                    style="font-size: 14px; font-weight: 700; opacity: 0.80; color: black; margin-left: 20px;">
+                    Browse eBay's Online Art Collection</p>
+                <p
+                    style=" font-size: 14px; opacity: 0.90; color: black;margin: 5px 0 5px 20px;">
+                    If you consider yourself an art collector, eBay has a
+                    wide variety of collectible art, <a href="#"
+                        style="color: #1553a5;">paintings,</a> originals and
+                    reprints to peruse. On a budget? Browse more affordable
+                    art collections including <a href="#"
+                        style="color: #1553a5;">art posters</a> film,
+                    television and popular culture. With so many art
+                    collections online, it's easy to find the perfect piece
+                    for your own art collection, no matter what style of
+                    collector art you prefer.</p>
+                <p
+                    style="font-size: 14px; font-weight: 700; opacity: 0.80; color: black; margin-left: 20px; ">
+                    Shop for Rare Stamps and Coins</p>
+                <p
+                    style="font-size: 14px; opacity: 0.90; color: black; margin: 5px 0 5px 20px;">
+                    Collectible <a href="#"
+                        style="color: #1553a5;">stamps</a> and <a href="#"
+                        style="color: #1553a5;">coin collecting</a> are two
+                    of the most seasoned pastimes of collectors. Whether
+                    you're adding to your coin collection, getting all 50
+                    U.S. <a href="#" style="color: #1553a5;">quarters,</a>
+                    or just starting your stamp book, eBay has you covered.
+                    With listings of some of the most coveted items in the
+                    world, you're sure to find the next big addition to your
+                    set.</p>
+                <p
+                    style="font-size: 14px; font-weight: 700; opacity: 0.80; color: black; margin-left: 20px;">
+                    Embrace the Fun with Sports Memorabilia and Toys</p>
+                <p
+                    style="font-size: 14px; opacity: 0.90; color: black; margin: 5px 0 5px 20px;">
+                    Who says collecting has to be serious? <a href="#"
+                        style="color: #1553a5;">Autographed baseball
+                        cards</a> and baseball memorabilia are sure to
+                    inspire nostalgia. But the selection doesn't end there:
+                    football, hockey, basketball, soccer and other popular
+                    sports are represented, too.</p>
+                <p
+                    style="font-size: 14px; font-weight: 700; opacity: 0.80; color: black; margin-left: 20px;">
+                    The Perfect Items for Any Collection</p>
+                <p
+                    style="font-size: 14px; opacity: 0.90; color: black; margin: 5px 0 5px 20px; padding-bottom: 25px; border-bottom: 1px rgb(221, 221, 221) solid; ">
+                    Looking for something a little out-of-the-box? Can't
+                    find what you want in antique stores or hobby shops?
+                    Browse eBay for action figures, shot glasses, sterling
+                    silver spoons, <a href="#" style="color: #1553a5;">glass
+                        pottery</a> or any other niche collector's item you
+                    can imagine.</p>
+            </div>
+        </div>
+    </section>
+    <div style="padding-bottom: 30px; padding-left: 0px; border-bottom: 1px solid rgb(202, 198, 198);"></div>
+                                            <footer style="padding-top: 30px;">
+                                                <div>
+                                                    <a class="fl"> About eBay</a>
+                                                    <a class="fl">Announcements </a>
+                                                    <a class="fl">CommunitySecurity</a>
+                                                    <a class="fl">CenterSeller</a>
+                                                    <a class="fl">Information</a>
+                                                    <a class="fl">CenterPoliciesAffiliatesHelp & Contact</a>
+                                                    <a class="fl">Site Map</a>
+                                                </div>
+                                                <a style="margin-left: 97%; "
+                                                    href="/ebay/esraa/html esraa/sneakesr.html"><button
+                                                        style="border:1px solid #f0f0f0; background-color: white;"><img
+                                                            src="/ebay/esraa/imges/OIP.jfif" class="ico3"></button></a>
+                                                <div style="padding-bottom:20px ;">
+                                                    <span class="fp">Copyright © 1995-2022 eBay Inc. All Rights
+                                                        Reserved. </span>
+                                                    <a class="fl2"> Accessibility,</a>
+                                                    <a class="fl2"> User Agreement,</a>
+                                                    <a class="fl2"> Privacy,</a>
+                                                    <a class="fl2"> Cookies,</a>
+                                                    <a class="fl2"> Do not sell my personal information</a>
+                                                    <span class="fp">and</span>
+                                                    <a class="fl2"> AdChoice</a>
+                                                </div>
+
+                                            </footer>
+
+                                            <script src="https://kit.fontawesome.com/139107825c.js"
+                                                crossorigin="anonymous"></script>
+                                            <script src="/ebay/header/header.js"></script>
+                                            <script src="/ebay/header/bootstrip/js/bootstrap.bundle.js"></script>
+                                            <script
+                                                src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+                                            <script
+                                                src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+                                            <script
+                                                src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
