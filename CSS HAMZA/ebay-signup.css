@@ -41,12 +41,11 @@ body {
     bottom: 60%;
     right: 35%;
 }
-
 .begin {
     font-family: Market sans-serif, Arial, Helvetica, sans-serif Neue, Helvetica, Arial, Roboto, sans-serif;
     font-size: 45px;
     font-weight: 700;
-    color: Font color: rgb(25, 25, 25);
+    color: rgb(25, 25, 25);
 
 }
 
@@ -105,15 +104,12 @@ body {
     transform: rotate(89deg);
     position: absolute;
     right: 20%;
-
 }
 
 .button-div {
     position: absolute;
     top: 470px;
     right: 360px;
-
-
 }
 
 .create-but {
@@ -137,9 +133,6 @@ body {
     border-radius: 20px;
     font-weight: bold;
     border: none;
-
-
-
 }
 
 .f-logo {
@@ -154,7 +147,6 @@ body {
 
 .s-c {
     margin-right: 10%;
-
 }
 
 .face:hover {
@@ -170,7 +162,6 @@ body {
     background-color: #FFFFFF;
     color: #534F4A;
     border: 1px solid grey;
-
 }
 
 .google:hover {
@@ -196,16 +187,12 @@ body {
     color: rgb(25, 25, 25);
     font-weight: 700;
     font-size: 20px;
-
 }
 
 .last-sec {
     position: absolute;
     left: 1450px;
     bottom: 300px;
-    /* position: sticky;
-    top: 0px; */
-    /* left: 1400px; */
     border-radius: 40px;
 
 }
@@ -214,7 +201,6 @@ body {
     width: 53px;
     background-color: #F2F2F2;
     height: 55px;
-
 }
 
 .write-list {
