@@ -1,0 +1,224 @@
+.head-support {
+    text-decoration: none;
+    color: rgb(6, 84, 186);
+    font-family: Arial, Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    margin: 50%;
+    background-color: #ffff;
+}
+
+.ebay-logo {
+    width: 186px;
+    height: 69px;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.ebay-div {
+    position: absolute;
+    bottom: 85%;
+    right: 83%;
+}
+
+.support-div {
+    position: absolute;
+    left: 83%;
+    bottom: 95%;
+}
+
+.create-div {
+    position: absolute;
+    bottom: 60%;
+    right: 35%;
+}
+
+.begin {
+    font-family: Market sans-serif, Arial, Helvetica, sans-serif Neue, Helvetica, Arial, Roboto, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: Font color: rgb(25, 25, 25);
+
+}
+
+.form-div {
+    position: absolute;
+    top: 50%;
+    right: 35%;
+}
+
+#first {
+    margin-right: 5%;
+    width: 170px;
+    height: 50px;
+    background-color: #F7F7F7;
+    border-radius: 15px;
+    border: none;
+    border: 1px solid gray;
+}
+
+.Email {
+    width: 369px;
+    height: 55px;
+    background-color: #F7F7F7;
+    border-radius: 15px;
+    border: none;
+    border: 1px solid gray;
+}
+
+#pass {
+    width: 369px;
+    height: 55px;
+    background-color: #F7F7F7;
+    border-radius: 15px;
+    border: none;
+    border: 1px solid gray;
+}
+
+.user {
+    color: darkblue;
+}
+
+.acc-div {
+    position: absolute;
+    top: 300px;
+    right: 49%;
+    left: 10%;
+}
+
+.or-div {
+    position: absolute;
+    left: 69%;
+    bottom: 10%;
+}
+
+.line-div {
+    transform: rotate(89deg);
+    position: absolute;
+    right: 20%;
+
+}
+
+.button-div {
+    position: absolute;
+    top: 470px;
+    right: 360px;
+
+
+}
+
+.create-but {
+    width: 366px;
+    height: 59px;
+    background-color: #C7C7C7;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-weight: 400;
+    color: #FCFFFF;
+    font-size: 20px;
+}
+
+.face {
+    background-color: #4267B2;
+    color: #FCFFFF;
+    height: 48px;
+    width: 400px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+
+
+
+}
+
+.f-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.g-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.s-c {
+    margin-right: 10%;
+
+}
+
+.face:hover {
+    background-color: #062e7d;
+}
+
+.google {
+    height: 48px;
+    width: 400px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: #FFFFFF;
+    color: #534F4A;
+    border: 1px solid grey;
+
+}
+
+.google:hover {
+    background-color: lightgrey;
+}
+
+.apple-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.suggest {
+    position: absolute;
+    left: 90%;
+    bottom: 1%;
+
+}
+
+.helper {
+    height: 32px;
+    width: 52px;
+    background-color: #0654BA;
+    color: rgb(25, 25, 25);
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.last-sec {
+    position: absolute;
+    left: 1450px;
+    bottom: 300px;
+    /* position: sticky;
+    top: 0px; */
+    /* left: 1400px; */
+    border-radius: 40px;
+
+}
+
+.questionmark {
+    width: 53px;
+    background-color: #F2F2F2;
+    height: 55px;
+
+}
+
+.write-list {
+    height: 40px;
+    width: 53px;
+    background-color: #F2F2F2;
+}
