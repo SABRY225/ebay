@@ -2,7 +2,6 @@
     text-decoration: none;
     color: rgb(6, 84, 186);
     font-family: Arial, Arial, Helvetica, sans-serif;
-
 }
 
 body {
@@ -40,10 +39,6 @@ body {
     font-size: 36px;
     font-weight: 700;
     margin-left: 50%;
-    /* position: absolute; */
-    /* left: 10%; */
-    /* bottom: 20%; */
-
 }
 
 .create {
@@ -62,32 +57,15 @@ body {
 }
 
 .email {
-    /* background-color: rgb(255, 255, 255); */
-    /* color: rgb(25, 25, 25); */
-    /* font-size: 17.5px; */
-    /* font-weight: 400; */
     height: 48px;
     width: 400px;
     border-radius: 15px;
-    /* margin-right: 10%; */
-    /* position: absolute; */
-    /* left: 5%; */
-    /* right: 5%; */
-    /* margin-left: 5%; */
     text-align: left;
     align-items: flex-start;
     border: #A7A7A7 solid 1px;
     background-color: #F7F7F7;
-
-
 }
-
-/* .email:focus{
-
-} */
-
 .form {
-    /* margin-right: -10%; */
     position: relative;
     right: 1%;
 }
@@ -113,9 +91,6 @@ body {
     border-radius: 20px;
     font-weight: bold;
     border: none;
-
-
-
 }
 
 .f-logo {
@@ -127,16 +102,13 @@ body {
     width: 50px;
     height: 50px;
 }
-
 .s-c {
     margin-right: 10%;
 
 }
-
 .face:hover {
     background-color: #062e7d;
 }
-
 .google {
     height: 48px;
     width: 400px;
@@ -146,9 +118,7 @@ body {
     background-color: #FFFFFF;
     color: #534F4A;
     border: 1px solid grey;
-
 }
-
 .google:hover {
     background-color: lightgrey;
 }
@@ -179,7 +149,7 @@ body {
 
 .learn-div {
     position: absolute;
-    left: 30%;
+    left: 30px;
 }
 
 .footer {
