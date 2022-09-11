@@ -14,7 +14,7 @@ body{
     font-weight: 400;
     opacity: 0.8;
 }
-.ico{
+.ico , .ico2{
     width: 15px;
     height: 15px;
 }
@@ -23,10 +23,42 @@ body{
     padding: 0;
     margin: 0;
 }
+.input2{
+    padding-left: 10px; border-radius: 10px; border: 1px solid rgb(182, 179, 179); width: 220px; height: 45px; background-color:rgb(223, 223, 223) ;
+    
+}
+.btnsl{
+    border-radius: 10px; 
+    border: 1px solid rgb(182, 179, 179);
+    background-color:rgb(223, 223, 223) ;
+
+}
+.btnsl:focus{
+    margin-left: 20px; height: 50px; width: 100px; border: 2px solid black ;
+
+}
+.input2:focus
+{
+    border-radius: 10px; 
+    border: 1px solid rgb(182, 179, 179); width: 220px; height: 45px; background-color:rgb(223, 223, 223) ;
+    background-color: white;
+}
+
+.img6{
+    width: 100px;
+    margin-top:15px ;
+}
 .list2{
     list-style-type:none;
     padding: 0;
     margin: 0;
+}
+.par{
+    margin: 0;
+}
+.div2{
+    padding-top: 10px;
+    border-bottom: 1px lightgrey solid; 
 }
 .li{
     padding-left: 0;
@@ -39,9 +71,8 @@ body{
     
 }
 
-.ico2{
-    width: 15px;
-    height: 15px;
+.ico3{
+    width: 20px;
 }
 .pa:hover , .li:hover , .li2:hover , .pa2:hover{
     color: black;
@@ -119,6 +150,9 @@ body{
 .ico3{
     width: 25px;
 }
+.input1{
+    margin-top: 10px;
+}
 
 .font
 {
@@ -131,8 +165,9 @@ body{
 }
 .body2{
     margin-top: 10px;
+    padding-left: 220px;
 }
 .img4{
-    width: 50px;
+    width: 60px;
     
 }
