@@ -1,214 +1,344 @@
-body{
+body {
     width: 100%;
     padding-left: 2%;
     padding-right: 2%;
 }
-.body1{
-    padding-left:7% ;
+
+.body1 {
+    padding-left: 7%;
     padding-top: 3%;
 }
+
 .fs {
     font-size: 16px;
     font-weight: 400;
     color: black;
-    
+
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
-  }
-  .ddm:hover ,.ddm{
+}
+
+.ddm:hover,
+.ddm {
     background-color: #c5e5fb;
-  }
-.font4{
+}
+
+.font4 {
     font-size: 14px;
     font-weight: 700;
     border: 0px solid white;
     background-color: white;
 }
-.sop{
+
+.sop {
     font-size: 16px;
     font-weight: 400;
     opacity: 0.8;
 }
-.ico , .ico2{
+
+.ico,
+.ico2 {
     width: 15px;
     height: 15px;
 }
-.list{
-    list-style-type:none;
+
+.list {
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
-.input2{
-    padding-left: 10px; border-radius: 10px; border: 1px solid rgb(182, 179, 179); width: 220px; height: 45px; background-color:rgb(223, 223, 223) ;
-    
-}
-.btnsl{
-    border-radius: 10px; 
+
+.input2 {
+    padding-left: 10px;
+    border-radius: 10px;
     border: 1px solid rgb(182, 179, 179);
-    background-color:rgb(223, 223, 223) ;
+    width: 220px;
+    height: 45px;
+    background-color: rgb(223, 223, 223);
 
 }
-.btnsl:focus{
-    margin-left: 20px; height: 50px; width: 100px; border: 2px solid black ;
+
+.btnsl {
+    border-radius: 10px;
+    border: 1px solid rgb(182, 179, 179);
+    background-color: rgb(223, 223, 223);
 
 }
-.input2:focus
-{
-    border-radius: 10px; 
-    border: 1px solid rgb(182, 179, 179); width: 220px; height: 45px; background-color:rgb(223, 223, 223) ;
+
+.btnsl:focus {
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+
+}
+
+.input2:focus {
+    border-radius: 10px;
+    border: 1px solid rgb(182, 179, 179);
+    width: 220px;
+    height: 45px;
+    background-color: rgb(223, 223, 223);
     background-color: white;
 }
-.imgese{
+
+.imgese {
     height: 300px;
     width: 350px;
 }
-.fontse{
+
+.fontse {
     font-size: 14px;
     font-weight: 400;
     color: black;
 }
-.img6{
+
+.img6 {
     width: 100px;
-    margin-top:15px ;
+    margin-top: 15px;
 }
-.list2{
-    list-style-type:none;
+
+.list2 {
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
-.par{
+
+.par {
     margin: 0;
 }
-.div2{
+
+.div2 {
     padding-top: 10px;
-    border-bottom: 1px lightgrey solid; 
+    border-bottom: 1px lightgrey solid;
 }
-.li{
+
+.li {
     padding-left: 0;
     font-size: 14px;
 }
-.li2{
+
+.li2 {
     padding: 0;
     margin: 0;
     font-size: 14px;
-    
+
 }
 
-.ico3{
+.ico3 {
     width: 20px;
 }
-.pa:hover , .li:hover , .li2:hover , .pa2:hover{
+
+.pa:hover,
+.li:hover,
+.li2:hover,
+.pa2:hover {
     color: black;
-    text-decoration:underline;
+    text-decoration: underline;
     background-color: white;
 }
-.pa{
+
+.pa {
     font-size: 14px;
     color: black;
     text-decoration: none;
     margin: 0;
 }
-.pa2{
+
+.pa2 {
     font-size: 14px;
     color: black;
     height: 35px;
     text-decoration: none;
 }
-.img2{
+
+.img2 {
     width: 180px;
     height: 180px;
     margin-right: 15px;
     margin-left: 15px;
 }
-.img2:hover{
+
+.img2:hover {
     border: 1px solid rgb(197, 197, 197);
 }
-.list3{
+
+.list3 {
     font-size: 16px;
     color: black;
-    text-decoration:underline white;
+    text-decoration: underline white;
     padding-left: 50px;
 }
-.img3{
+
+.img3 {
     width: 110px;
-    
+
 }
 
-.list3:hover{
+.list3:hover {
     color: black;
-    text-decoration:underline;
+    text-decoration: underline;
     background-color: white;
 }
-.fl{
+
+.fl {
     color: #767676;
     text-decoration: underline white;
     font-size: 12px;
     font-weight: 400;
     padding: 0 20px 10px 0;
 }
-.fl:hover{
+
+.fl:hover {
     color: #767676;
     font-size: 12px;
-    text-decoration:underline;
+    text-decoration: underline;
     background-color: white;
 }
 
-.fp{
+.fp {
     color: #333333;
     font-size: 12px;
     font-weight: 400;
     padding: 0 5px 10px 0;
 }
-.fl2{
+
+.fl2 {
     color: #767676;
     text-decoration: underline;
     font-size: 12px;
     font-weight: 400;
     padding: 0 5px 10px 0;
 }
-.fl2:hover{
+
+.fl2:hover {
     color: #767676;
     background-color: white;
 }
-.ico3{
+
+.ico3 {
     width: 25px;
 }
-.input1{
+
+.input1 {
     margin-top: 10px;
 }
 
-.font
-{
+.font {
     font-size: 14px;
 }
-.font2{
-    font-size:26px;
+
+.font2 {
+    font-size: 26px;
     font-weight: 700;
     margin-left: 5px;
 }
-.body2{
+
+.body2 {
     margin-top: 10px;
     padding-left: 220px;
 }
-.img4{
+
+.img4 {
     width: 60px;
-    
+
 }
-.font3{
+
+.font3 {
     font-size: 16px;
-    color: black;  
+    color: black;
 }
-.space1{
+
+.space1 {
     margin-left: 33%;
 }
-.space2{
+
+.space2 {
     margin-left: 50%;
 }
-#btn2{
+
+#btn2 {
     background-color: royalblue;
     color: white;
     border-radius: 10px;
     height: 30px;
     border: 0;
+}
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+}
+
+.formclass {
+    padding-left: 5px;
+    border-radius: 10px;
+    height: 40px;
+    border: 1px rgb(185, 185, 185) solid;
+    margin-bottom: 20px;
+    background-color: rgb(236, 236, 236);
+
+}
+.formclass:focus{
+    padding-left: 5px;
+    border-radius: 10px;
+    height: 40px;
+    border: 1px rgb(185, 185, 185) solid;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.apple-logo {
+    width: 50px;
+    height: 50px;
+}
+.face {
+    background-color: #4267B2;
+    color: #FCFFFF;
+    height: 48px;
+    width: 300px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.f-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.g-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.s-c {
+    margin-right: 10%;
+}
+.google {
+    height: 48px;
+    width: 300px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: #FFFFFF;
+    color: #534F4A;
+    border: 1px solid grey;
+}
+
+.google:hover {
+    background-color: lightgrey;
+}
+.create {
+    background-color:rgb(170, 170, 170);
+    color: #FCFFFF;
+    height: 48px;
+    width: 300px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
 }
