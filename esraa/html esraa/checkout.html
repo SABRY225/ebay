@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/ebay/header/header.css">
     <link rel="stylesheet" href="/ebay/header/bootstrip/css/bootstrap.min.css">
 </head>
-<body class="body2">
+<body class="body2" >
     <div class="container">
         <div class="row">
         <div class="col-6 " style="margin-bottom: 45px;">
@@ -25,23 +25,23 @@
     <div class="container">
         <div class="row">
         <div class="col-7">
-            <div   style="padding: 10px; border: 1px solid lightgrey; margin-top: 0;" id="choose" >
+            <div   style="padding: 10px; border: 1px solid lightgrey; margin-top: px;" id="choose" >
                 <div class="div2">
                     <h6 style="margin-bottom: 10px; padding-left: 15px; font-weight: 700;">Pay with</h6>
                 </div>
-                <div class="form-check" id="choose1" >
-                    <input type="radio" class="form-check-input " id="radio111" name="optradio" value="visa" checked> 
-                    <label class="input1"><p style="margin: 0; margin-left: 15px;">Add new card</p>
+                <form class="form-check" id="choose1">
+                    <input type="radio" class="form-check-input" id="radio1" onclick="myFunction()" name="optradio" value="visa" > 
+                    <label class="input1" id="labal1"><p style="margin: 0; margin-left: 15px;">Add new card</p>
                     <img src="../imges/v1.png" class="ico3" style="margin-left: 15px;">
                     <img src="../imges/v2.png" class="ico3">
                     <img src="../imges/v3.png" class="ico3">
                     <img src="../imges/v4.png" class="ico3"></label> 
                     <div style="padding-bottom:10px; padding-left: 0px; border-bottom: 1px solid rgb(202, 198, 198);"></div>
-                    <input type="radio" class="form-check-input " id="radio222" name="optradio" value="paybal" checked> 
-                    <label class="input1"> <img src="../imges/p1.png" class="img4" style="margin-left:15px ;"></label>
+                    <input type="radio" class="form-check-input " onclick="myFunction1()" checked="checked" id="radio2" name="optradio" value="paybal" > 
+                    <label class="input1"  id="labal2"> <img src="../imges/p1.png" class="img4" style="margin-left:15px ;"></label>
                     <div style="padding-bottom: 10px; padding-left: 0px; border-bottom: 1px solid rgb(202, 198, 198);"></div>
-                    <input type="radio" class="form-check-input " id="radio333" name="optradio" value="paybalcridt" checked>
-                    <label class="input1"> 
+                    <input type="radio" onclick="myFunction2()" class="form-check-input " id="radio3" name="optradio" value="paybalcridt" >
+                    <label class="input1"  id="labal3"> 
                     <img src="../imges/p2.png" class="img4"  style="margin-left:15px ;">
                     </label>
                     
@@ -50,19 +50,18 @@
                         Unfortunately, PayPal Credit is not available for this purchase. Please select a different payment option.
                     </span>
                     <div style="padding-bottom: 10px; padding-left: 0px; border-bottom: 1px solid rgb(202, 198, 198);"></div>   
-                    <input type="radio" class="form-check-input " id="radio444" name="optradio" value="googlepay" checked>
-                    <label class="input1"><img src="../imges/p3.png" class="img4"  style="margin-left:5px ;"><span class="font">Google Pay</span></label>
-                </div>                
-                
+                    <input type="radio" class="form-check-input " onclick="myFunction3()" id="radio4" name="optradio" value="googlepay" >
+                    <label class="input1"  id="labal4"><img src="../imges/p3.png" class="img4"  style="margin-left:5px ;"><span class="font">Google Pay</span></label>                
+                </form>
             </div>
             <div class="card" style="margin-top:20px ; padding-left:10px; padding-top:10px ;">
-                <h6 style="font-weight: 700;" onmouseover="text()">Ship to</h6>
-                <p  class="par" id ="par1"></p>
-                <p  class="par" id ="par2"></p>
-                <p  class="par" id ="par3"></p>
-                <p  class="par" id ="par4"></p>
-                <p  class="par" id ="par5"></p>
-                <a href="#">Change</a>
+                <h6 style="font-weight: 700;">Ship to</h6>
+                <p  class="par" id ="par1">Ahmed Sabry</p>
+                <p  class="par" id ="par2">qina , qina</p>
+                <p  class="par" id ="par3">weqf , weqf 180530</p>
+                <p  class="par" id ="par4">Egypt</p>
+                <p  class="par" id ="par5">1098583817</p>
+                <a href="/ebay/HTML/model.html">Change</a>
             </div>
             <div class="card" style="margin-top:20px ; padding-left:10px; padding-top:10px ;">
                 <h6 style="font-weight: 700; margin-bottom: 20px;">Review item and shipping</h6>
@@ -73,9 +72,12 @@
                     EE SIM CARD from the United Kingdom. UK sim card with +44 phone number</span>
             
                 </div>
-                
-                    <p style="margin-left: 110px;margin-bottom: 10px; margin-top: 0; font-weight: 700;">US $3.50</p>
-                    <select class="form-select" style="margin-top: 5px; height: 50px; width: 100px; border: 2px solid black ; margin-left: 110px;">
+                <div class="d-flex">
+                    <span style="margin-left: 110px;margin-bottom: 10px; margin-top: 0; font-weight: 700; border: 0; font-size: 20px; color: black;">US $</span>
+                    <input style="margin-left: 3px;margin-bottom: 10px; margin-top: 0; font-weight: 700; border: 0; font-size: 20px;" id="pr" value="3.50 ">
+                    
+                </div>
+                    <select onchange="calculate()" class="form-select" id="qu2" style="margin-top: 5px; height: 50px; width: 100px; border: 2px solid black ; margin-left: 110px;">
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -137,11 +139,30 @@
             </div>
             
         </div>
-        <div class="col-4 card">
-            <p class="font" style="background-color: rgb(240, 240, 240); width: 93%; margin-left: 3.5%;">By placing your order, you agree to eBay's <a href="#">User Agreement</a>  and <a href="#">Privacy</a> Notice. </p>
-            <button > <span id="btn10">ewf</span></button>
+        <div class="col-4 card " >
+            <div style="padding-left: 15px;">
+                <span class="font3" id="quch">Subtotal (1 item) </span>
+                <span class="font3 space1" id="price">US $3.50</span>
+            </div>
+            <div style="padding-left: 15px;">
+                <span class="font3"  id="quch1">Shipping</span>
+                <span class="font3 space2"  id="price1">US $6.00</span>
+            </div>
+            <div style="padding-bottom: 15px; padding-left: 0px; border-bottom: 1px solid rgb(202, 198, 198);"></div>
+            <div style="padding-left: 15px;">
+                <span style="color: black; font-size:24px ; font-weight: 700;" id="quch2">Order total</span>
+                <span style="color: black; font-size:24px ; margin-left:30%; font-weight: 700;" id="price2">US $9.50</span>
+            </div>
+            <p class="font" style="background-color: rgb(241, 241, 241); width: 93%; margin-left: 3.5%;">By placing your order, you agree to eBay's <a href="#">User Agreement</a>  and <a href="#">Privacy</a> Notice. </p>
+            
+            <button id="btn2" ><span id="btn10"> pay with paypal</span></button>
+            <p id="pargragh" class="font" style="margin-left:20%; margin-top:15px;">You'll finish checkout on PayPal</p>
+            <div class="d-flex"style="margin: 30px; margin-bottom:0;" ><img src="/ebay/esraa/imges/fxxj3ttftm5ltcqnto1o4baovyl.png" class="img4">
+            <span class="font3" style="margin-left: 3px; opacity: 0.85;"> MONEY BACK GUARNTEE</span></div>
+            <a href="#" style="margin-left:37%">See details</a>
         </div>
         </div>
+    </div>
         <footer><div style="padding-bottom:70px; padding-top: 60px;">
             <span class="fp">Copyright © 1995-2022 eBay Inc. All Rights Reserved. </span>
             <a class="fl2"> Accessibility,</a>
