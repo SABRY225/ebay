@@ -13,7 +13,6 @@
 
 // function text()
 // {
-     
 //     document.getElementById("par1").innerHTML=document.getElementById("inp1").value;
 //     document.getElementById("par2").innerHTML=document.getElementById("address").value;
 //     document.getElementById("par3").innerHTML=document.getElementById("city").value;
@@ -70,14 +69,14 @@ function myFunction() {
     var text = document.getElementById("btn10");
     if (checkBox.checked == true){
         text.innerHTML="pay with";
-       document.getElementById("pargragh").innerHTML="this method not available for your country";
+      document.getElementById("pargragh").innerHTML="this method not available for your country";
     }
   }
   function myFunction3() {
     var checkBox = document.getElementById("labal4");
     var text = document.getElementById("btn10");
     if (checkBox.checked == true){text.innerHTML="pay with google pay";
-       document.getElementById("pargragh").innerHTML="confirm";
+      document.getElementById("pargragh").innerHTML="confirm";
     } 
   }
- 
+
