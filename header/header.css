@@ -1,8 +1,12 @@
 a{
     text-decoration: none;
 }
+header{
+    margin: 0px 12px;
+}
 .place1{
     margin-top: 10px;
+    padding-left: 110px;
 }
 .place2{
     margin-left: 0px;
@@ -20,7 +24,7 @@ a{
     margin-bottom: 10px;
 }
 .place3{
-    margin-bottom: -50px ;
+    margin-bottom: -70px ;
     padding: 0px ;
 }
 .eday{
@@ -29,6 +33,7 @@ a{
 }
 .place4{
     margin-top: 5px;
+    margin-left: -20px;
     margin-bottom: 90px;
 } 
 .place5{
