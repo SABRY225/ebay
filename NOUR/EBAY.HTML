@@ -10,9 +10,8 @@
    <link href="bootstrap.css" rel="stylesheet">
   
       <style>
-  
-   
-      </style>
+
+</style>
 </head>
 <body
 style=" margin: 0px;
@@ -20,12 +19,12 @@ padding: 0px;
 width: 100%;">
 
 
- <!-- start header -->
- <header class="container border-bottom border-dark" >
+<!-- start header -->
+<header class="border-bottom border-dark" >
     <div class="row">
-        <div class="col-6 place1">
-            <h6>Hi! <a href="#">Sign in</a> or <a href="#" class="pe-5">register</a> <a href="#" class="pe-5 text-dark a">Daily Deals</a> <a href="#" class="text-dark a">Help & Contact</a> </h6>
-            
+        <div class="col-6 place1 " >
+            <h6 style="padding:0px 100px ;">Hi Ahmed! <a href="/ebay/HTML HAMZA/ebay-signin.html" class="pe-5  a">(Sign in)</a>  
+            <a href="#" class="padding-left:50px; text-dark a">Daily Deals</a> <a href="#" class="text-dark a">Help & Contact</a></h6>
         </div>
         <div class="col-6 place2">
             <a href="#" class="pe-3 text-dark a">Ship to</a>
@@ -40,7 +39,8 @@ width: 100%;">
                                 <div class="modal-content">
                                 <!-- Modal Header -->
                                 <div class="modal-body">
-                                    Please <a href="">sign in </a> to view items you are watching.
+                                    <!-- Please <a href="">sign in </a> to view items you are watching. -->
+                                    <p>Under implementation</p>
                                 </div>
                                 <!-- Modal body -->
                                 <div class="modal-footer">
@@ -63,73 +63,75 @@ width: 100%;">
             <li><a class="dropdown-item" href="#" >Messages</a></li>
             </ul>
             <!-- Button to Open the Modal -->
-            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal">
-                <img src="bell.png" alt="photo " class="img">
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#Modl">
+                <img src="../Image/bell.png" alt="photo " class="img">
             </button>
             <!-- The Modal -->
-            <div class="modal" id="Modal">
+            <div class="modal" id="Modl">
                 <div class="modal-dialog">
-                <div class="modal-content">
+                    <div class="modal-content">
                     <!-- Modal Header -->
                     <div class="modal-body">
-                    <!-- Please <a href="">sign in </a> to view notifications. -->
+                        <!-- Please <a href="">sign in </a> to view notifications. -->
+                        <p>Under implementation</p>
                     </div>
                     <!-- Modal body -->
                     <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#mModal">
+                <img src="../Image/shopping-cart.png" alt="photo " class="img">
+            </button>
+            <!-- The Modal -->
+            <div class="modal" id="mModal">
+                <div class="modal-dialog">                               
+                <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-body">
+                    Your cart is empty
+                    Time to start shopping!
+                </div>
+                <!-- Modal body -->
+                <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<nav>
+    <div class="container">
+        <div class="row border-bottom border-dark place">
+            <div class="col-2  place3 row">
+                <img src="http://pngimg.com/uploads/ebay/ebay_PNG22.png" alt="eday" class="eday " style="width: 100px;margin-top: -10px;">
+                <div class=" place4 col-2 " style="padding-right: 0px;padding-top: 10px;">
                     <!-- Button to Open the Modal -->
-                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal">
-                    <img src="shopping-cart.png" alt="photo " class="img">
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#y">
+                        category
                     </button>
                     <!-- The Modal -->
-                    <div class="modal" id="myModal">
-                            <div class="modal-dialog">
-                            <div class="modal-content">
+                    <div class="modal" id="y">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
                             <!-- Modal Header -->
-                            <div class="modal-body">
-                            Please <a href="">sign in </a> to view items you are watching.
+                            <div class="modal-body container">
+                            <p>Under implementation</p>
                             </div>
                             <!-- Modal body -->
                             <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-        </div>
-    </div>
-    </header>
-    <nav> 
-        <div class="container">
-            <div class="row border-bottom border-dark place">
-                <div class="col-2  place3 row">
-                        <img src="http://pngimg.com/uploads/ebay/ebay_PNG22.png" alt="eday" class="eday col-2">
-                        <div class=" place4 col-2 ">
-                        <!-- Button to Open the Modal -->
-                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal">
-                            Shop by category
-                            </button>
-                            <!-- The Modal -->
-                            <div class="modal" id="myModal">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                <!-- Modal Header -->
-                                <div class="modal-body">
-                                    Please <a href="">sign in </a> to view items you are watching.
-                                </div>
-                                <!-- Modal body -->
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                </div>
-                                </div>
-                            </div>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                             </div>
                         </div>
+                        </div>
+                    </div>
                 </div>
+            </div>  
                 <div class="col-6  place3">
                     <div class="input-group place5">
                         <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
@@ -177,15 +179,13 @@ width: 100%;">
                         <button type="button" class="btn btn-outline-primary btn-lm place7" >search</button>
                     </div>
                     <div class="place8">
-                        <a href="#" >Advanced</a>
+                        <a href="/ebay/marwa/html/advanced.html" >Advanced</a>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
-    <!-- End header -->
-
-
+<!-- End header -->
 
     <br>
 
@@ -403,12 +403,12 @@ width: 100%;">
     <div style="margin-left: 320px; margin-top: -40px;">
     <div>
     
-        <button style="height: 40px; width:250px; border-radius: 50px; color: aliceblue; background-color: rgb(47, 47, 106); border-width: 0px; font-weight: bolder;"> <a href="#" style="color: white;">   Buy it Now </a> </button>
+        <button style="height: 40px; width:250px; border-radius: 50px; color: aliceblue; background-color: rgb(47, 47, 106); border-width: 0px; font-weight: bolder;"> <a href="/ebay/esraa/html esraa/checkout.html" style="color: white;">   Buy it Now </a> </button>
     </div>
     <div style="margin-top: -15px;">
         <br>
        
-     <button style="height: 40px; width:250px; border-radius: 50px; color: aliceblue; background-color: rgb(145, 145, 228); border-width: 0px; font-weight: bolder;"> <a href="#" style="color: white; ">   Add To Cart  </a></button>
+     <button style="height: 40px; width:250px; border-radius: 50px; color: aliceblue; background-color: rgb(145, 145, 228); border-width: 0px; font-weight: bolder;"> <a href="/ebay/HTML/veiw.html" style="color: white; ">   Add To Cart  </a></button>
     </div>
     <br>
     
